@@ -1,0 +1,9 @@
+perl disamb.pl --simMeasure WordNet::Similarity::ealt corpus.xml > test.ealt.out
+perl disamb.pl --simMeasure WordNet::Similarity::lch corpus.xml > test.lch.out
+
+time -o t/time.ealt.log perl disamb.pl --simMeasure WordNet::Similarity::ealt t/corpus.xml > t/disamb.ealt.wps
+time -o t/time.lch.log perl disamb.pl --simMeasure WordNet::Similarity::lch t/corpus.xml > t/disamb.lch.wps
+
+play ~/calis/alert_long.wav
+
+./runtest.sh tests/se2
