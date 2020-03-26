@@ -1,3 +1,7 @@
+**EN:** Perl implementation of the word sense disambiguation algorithm I developed during my master's thesis.
+
+**TUR:** Yüksek lisans tezim sırasında geliştirdiğim kelime anlamı açıklaştırma (word sense disambiguation) algoritmasının Perl dilinde uygulanmış hali.
+
 Please use the reference below:
 
 ```
@@ -15,3 +19,7 @@ Please use the reference below:
       pages = "8--11",
   }
 ```
+
+## Thanks to
+* http://wn-similarity.sourceforge.net
+
